@@ -1,0 +1,49 @@
+# Python bytecode:
+*.py[co]
+*.pyc
+
+
+# Packaging files:
+*.egg*
+
+# Editor temp files:
+*.swp
+*~
+
+# SQLite3 database files:
+*.db
+
+# Logs:
+*.log
+
+# Archivos generados por OSX #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+####Entorno virtual
+env/
+env/*
+
+# Archivos Media:
+media
+devcodela/manage.py
+devcodela/devcodela/settings/local.py
+
+# MIGRACIONES
+srs-production-fin/apps/awards/migrations/*
+srs-production-fin/apps/certifications/migrations/*
+srs-production-fin/apps/home/migrations/*
+srs-production-fin/apps/inicio/migrations/*
+srs-production-fin/apps/licenses/migrations/*
+srs-production-fin/apps/projects/migrations/*
+srs-production-fin/apps/sectores/migrations/*
+srs-production-fin/apps/sectors/migrations/*
+srs-production-fin/apps/services/migrations/*
+srs-production-fin/apps/servicios/migrations/*
+srs-production-fin/apps/team/migrations/*
